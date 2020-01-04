@@ -4,6 +4,6 @@ site_author: vucre
 nav:
     - Home: index.md
     - About: about.md
-theme: windmill
+theme: material
 repo_name: GitHub
 repo_url: https://github.com/vucre/wiki.dart.icu
