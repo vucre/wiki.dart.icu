@@ -1,9 +1,64 @@
 site_name: Dart, I see you
 site_description: wiki
 site_author: vucre
+site_url: https://wiki.dart.icu
 nav:
     - Home: index.md
     - About: about.md
-theme: material
-repo_name: GitHub
+theme:
+  name: material
+  feature:
+    tabs: true
+  palette:
+    # primary: 'Deep Purple'
+    # accent: 'Pink'
+    language: 'zh'
+repo_name: vucre/wiki.dart.icu
 repo_url: https://github.com/vucre/wiki.dart.icu
+
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2019 VUCRE'
+
+# plugins:
+#   - search
+#   - minify:
+#       minify_html: true
+
+# Customization
+extra:
+  social:
+    - type: globe
+      link: https://dart.icu
+    - type: github-alt
+      link: https://github.com/vucre
+
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: false
+  - toc:
+      permalink: true
+  - footnotes
+  - meta
+  - def_list
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_png
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+  
